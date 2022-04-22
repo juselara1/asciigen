@@ -28,3 +28,11 @@ class Image(Array):
         for i, interval in enumerate(intervals):
             new_img[(self >= interval[0]) & (self <= interval[1])] = i
         return new_img
+
+    @property
+    def height(self):
+        return self.shape[0]
+
+    @property
+    def width(self):
+        return self.shape[1]
