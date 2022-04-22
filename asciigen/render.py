@@ -1,6 +1,4 @@
 from abc import ABC, abstractmethod
-from matplotlib.figure import Figure
-from matplotlib.axes import Axes
 from typing import List
 import urwid
 

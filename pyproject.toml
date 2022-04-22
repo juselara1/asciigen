@@ -8,7 +8,6 @@ authors = ["Juan Lara <julara@unal.edu.co>"]
 python = "^3.9"
 numpy = "^1.22.3"
 opencv-python = "^4.5.5"
-matplotlib = "^3.5.1"
 urwid = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
