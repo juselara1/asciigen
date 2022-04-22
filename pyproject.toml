@@ -1,18 +1,17 @@
 [tool.poetry]
 name = "asciigen"
-version = "0.1.0"
+version = "0.1.1"
 description = "Ascii art image generator"
 authors = ["Juan Lara <julara@unal.edu.co>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8"
 numpy = "^1.22.3"
 opencv-python = "^4.5.5"
 urwid = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
 neovim = "^0.3.1"
-ipython = "^8.2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
